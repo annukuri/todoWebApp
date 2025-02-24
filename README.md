@@ -15,5 +15,5 @@ A Basic To Do Web Application with simple features to add, edit and delete a lis
 - *State Management*: React's built-in state management (or any other library, if used)
 - *Local Storage*: For persistent task storage
 
-#Cred
+# Cred
 This Project is done with the help of ideas from the internet
