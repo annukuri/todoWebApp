@@ -1,0 +1,11 @@
+.text
+{
+    color: #F5F5DC ;
+    font-family: 'Oswald', sans-serif;
+
+}
+.text_large , .text_small
+{
+    font-family: 'Oswald', sans-serif;
+    font-size:30pt;
+}

@@ -1,0 +1,166 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #003366 ;
+}
+
+h1,
+h2,
+h3,
+input,
+button {
+  font-family: 'Oswald', system-ui;
+  font-size: large;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #F5F5DC ;
+  gap: 14px;
+}
+
+header {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+header,
+.main {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 14px;
+}
+
+header input {
+  flex: 1;
+  border-radius: 14px;
+  outline: none;
+  width: 100%;
+}
+
+header button {
+  border-radius: 14px;
+  background: transparent;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+header button:hover {
+  opacity: 0.7;
+}
+
+header button,
+header input {
+  padding: 14px 18px;
+  border: none;
+  outline: none;
+  background: white;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.todoItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;                
+  padding: 8px 14px;        
+  border-radius: 8px;       
+  background: white;
+  justify-content: space-between; 
+  position: relative;       
+  width: 100%;             
+  max-width: 800px;         
+  box-sizing: border-box;  
+  margin: 8px auto;         
+}
+
+.todoItem p {
+  flex: 1;
+  color:#003366;
+  font-size: 24px;
+}
+
+.todohero_section {  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-self: center;
+  width: 90%;
+  max-width: 455px;
+  padding: 12px;
+  border-radius: 11px;
+}
+
+.todohero_section div:last-child {
+  background-color: #003366 ;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.actionsContainer button {
+  transition-duration: 200ms;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.todo_items_left button svg {
+  fill: #c2b39a;
+}
+
+.actionsContainer button:hover {
+  opacity: 0.7;
+}
+
+.todo_items_left {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.todo_items_left,
+.todo_items_right {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 640px) {
+
+  header button,
+  header input {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,26 @@
+
+.footer {
+    background-color: #003366 ;
+    color: #F5F5DC  ;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    }
+    
+    .footer .social-media a,
+    .footer p {   
+      color: #F5F5DC; 
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    
+    .footer .social-media a:hover {
+      text-decoration: underline;
+    }
+    .footer .social-media a{
+      color: white;
+    }
+    
